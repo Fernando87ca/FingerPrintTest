@@ -1,0 +1,50 @@
+# OS X files 
+.DS_Store
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+./bin/
+gen/
+sab3.0/src/main/assets/www/
+sab3.0/map*.txt
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse stuff
+.classpath
+.project
+.settings
+
+# Gradle stuff
+.gradle/
+build/
+.idea/
+out/
+*.iml
+com_crashlytics_export_strings.xml
+temp
+protected
+
+captures/
+fastlane/metadata
+report.xml
+
+# FAQS
+tsb-mobile/src/main/assets/FAQ/*
+!tsb-mobile/src/main/assets/FAQ/.gitkeep
+
+# Files
+myPdfTestFile
+
+# Mappings
+mappings.txt
